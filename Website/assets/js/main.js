@@ -1,3 +1,8 @@
+
+const chk = document.getElementById('chk');
+chk.addEventListener('change',() => {
+    document.body.classList.toggle('dark');
+});
 /* ----- NAVIGATION BAR FUNCTION ----- */
 function myMenuFunction(){
     var menuBtn = document.getElementById("myNavMenu");
@@ -28,12 +33,13 @@ function myMenuFunction(){
       navHeader.style.lineHeight = "90px";
 
     }
-  }
+
+}
 
 
 /* ----- TYPING EFFECT ----- */
  var typingEffect = new Typed(".typedText",{
-    strings : ["Cute","Tammy","Tanyel"],
+    strings : ["Student","Student","Student"],
     loop : true,
     typeSpeed : 100, 
     backSpeed : 80,
@@ -56,6 +62,7 @@ sr.reveal('.featured-text-info',{delay: 200})
 sr.reveal('.featured-text-btn',{delay: 200})
 sr.reveal('.social_icons',{delay: 200})
 sr.reveal('.featured-image',{delay: 300})
+
 
 
 /* -- PROJECT BOX -- */
@@ -87,6 +94,7 @@ const srRight = ScrollReveal({
 
 srRight.reveal('.skills-box',{delay: 100})
 srRight.reveal('.form-control',{delay: 100})
+
 
 
 
